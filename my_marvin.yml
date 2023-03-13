@@ -4,18 +4,18 @@ jenkins:
     local:
       allowsSignup: false
       users:
-       - id: chocolateen
-         password: ${USER_CHOCOLATEEN_PASSWORD}
-         name: Hugo
-       - id: vaugie_g
-         password: ${USER_VAUGIE_G_PASSWORD}
-         name: Garance
-       - id: i_dont_know
-         password: ${USER_I_DONT_KNOW_PASSWORD}
-         name: Jeremy
-       - id: nasso
-         password: ${USER_NASSO_PASSWORD}
-         name: Nassim
+        - id: chocolateen
+          password: ${USER_CHOCOLATEEN_PASSWORD}
+          name: Hugo
+        - id: vaugie_g
+          password: ${USER_VAUGIE_G_PASSWORD}
+          name: Garance
+        - id: i_dont_know
+          password: ${USER_I_DONT_KNOW_PASSWORD}
+          name: Jeremy
+        - id: nasso
+          password: ${USER_NASSO_PASSWORD}
+          name: Nassim
   authorizationStrategy:
     roleBased:
       roles:
