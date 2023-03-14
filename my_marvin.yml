@@ -57,3 +57,6 @@ jenkins:
             assignments:
               - "nasso"
             description: "Assistant"
+
+jobs:
+  - file : /var/jenkins_home/job_dsl.groovy
