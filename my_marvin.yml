@@ -49,3 +49,11 @@ jenkins:
             assignments:
               - "vaugie_g"
             description: "Group Obsessively Researching Innovation Linked to Learning and Accomplishment"
+            - name: assist
+            permissions:
+                - "Overall/Read"
+                - "Job/Workspace"
+                - "Job/Read"
+            assignments:
+              - "nasso"
+            description: "Assistant"
