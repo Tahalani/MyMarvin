@@ -26,3 +26,12 @@ jenkins:
               - "Overall/Administer"
             assignments:
               - "chocolateen"
+          - name: ape
+            permissions:
+              - "Overall/Read"
+              - "Job/Workspace"
+              - "Job/Build"
+              - "Job/Read"
+            assignments:
+              - "i_dont_know"
+            description: "Pedagogical team member"
