@@ -35,7 +35,7 @@ jenkins:
             assignments:
               - "i_dont_know"
             description: "Pedagogical team member"
-            - name: gorilla
+          - name: gorilla
             permissions:
               - "Overall/Read"
               - "Job/Workspace"
@@ -49,7 +49,7 @@ jenkins:
             assignments:
               - "vaugie_g"
             description: "Group Obsessively Researching Innovation Linked to Learning and Accomplishment"
-            - name: assist
+          - name: assist
             permissions:
                 - "Overall/Read"
                 - "Job/Workspace"
