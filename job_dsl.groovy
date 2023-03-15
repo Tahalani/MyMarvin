@@ -24,10 +24,11 @@ freeStyleJob('Tools/SEED') {
   }
   steps {
     dsl {
-      text('''freeStyleJob(DISPLAY_NAME) {
+      text('''freeStyleJob("\$DISPLAY_NAME") {
         scm {
           github("\$GITHUB_NAME")
-          branches('master')
+          triggers {
+            scm('* * * * *')
           }
         }
         wrappers {
